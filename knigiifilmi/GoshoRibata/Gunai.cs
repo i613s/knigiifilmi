@@ -6,11 +6,11 @@ namespace knigiifilmi.GoshoRibata
 {
     class Gunai
     {
-       public string kadri;
+       public string authorname;
         public string miyagi;
-        public Gunai(string kadri,string miyagi)
+        public Gunai(string authorname,string miyagi)
         {
-            this.kadri = kadri;
+            this.authorname = authorname;
             this.miyagi = miyagi;
         }
         

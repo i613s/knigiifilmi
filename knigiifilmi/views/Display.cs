@@ -53,7 +53,7 @@ namespace knigiifilmi.display
             for (int i = 0; i < gunai.Count; i++)
             {
                 
-               Console.Write($"Name:{gunai[i].kadri}");
+               Console.Write($"Name:{gunai[i].authorname}");
                 
                Console.WriteLine($"        Author:{gunai[i].miyagi}");
 
