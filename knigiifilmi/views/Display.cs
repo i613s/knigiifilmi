@@ -43,10 +43,10 @@ namespace knigiifilmi.display
         }
         public void Neshtosi()
         {
-            List<Gunai> gunai = new List<Gunai>()
+            List<GoshoRibata.knigiifilmi> gunai = new List<GoshoRibata.knigiifilmi>()
             {
-                new Gunai ("The art of war","sun tzu"),
-                new Gunai("Hobbit", "J R.R Tolkin"),
+                new GoshoRibata.knigiifilmi ("The art of war","sun tzu"),
+                new GoshoRibata.knigiifilmi("Hobbit", "J R.R Tolkin"),
                 
 
             };
@@ -55,7 +55,7 @@ namespace knigiifilmi.display
                 
                Console.Write($"Name:{gunai[i].authorname}");
                 
-               Console.WriteLine($"        Author:{gunai[i].miyagi}");
+               Console.WriteLine($"        Author:{gunai[i].authorname1}");
 
             }
 
@@ -64,15 +64,15 @@ namespace knigiifilmi.display
         {
             List<Sultan> sultan= new List<Sultan>
             {
-                new Sultan("Transformers","pesho slepiq"),
-                new Sultan("alo alo slunchice", "gosho debeliq"),
+                new Sultan("Transformers","Paramount pictures studio"),
+                new Sultan("alo alo slunchice", "Nova televiziq"),
 
             };
             for (int i = 0; i < sultan.Count; i++)
             {
 
-                Console.Write($"Name:{sultan[i].kusem}");
-                Console.WriteLine($"        Studio:{sultan[i].ahmed}");
+                Console.Write($"Name:{sultan[i].studio}");
+                Console.WriteLine($"        Studio:{sultan[i].studio1}");
 
             }
 
